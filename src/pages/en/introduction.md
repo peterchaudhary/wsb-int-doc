@@ -167,7 +167,7 @@ git pull
 For more information on the software GPG, see section [GPG](#gpg).
 The steps to install GPG are as follows:
 1. Download the installer and the signature from the [GPGTools website.](https://gpgtools.org/)
-![Download GPGTools](/gpg-download.png "Download GPGTools")
+![Download GPGTools](/download-gpg.png "Download GPGTools")
 2. **Optional**: Verify the signature. 
     This isn't a necessary step; however, we highly recommend that you verify the signature of the GPG installer to ensure its authenticity and integrity; for more information, see the [Why verify signature?](#why-verify-signature) section below.
     i. Open terminal, and type the following command `shasum -a 256` , add a space, and then drag and drop the installer (not the .sig file) into the terminal. You should see the path of the folder appear; it will look something like this: 
